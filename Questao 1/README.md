@@ -1,4 +1,4 @@
-# Questão 1
+# Questão 1 *(2 pontos)*
 
 Implemente o diagrama UML a seguir ***exatamente*** conforme indicado.
 Note que os nomes da classe e métodos devem ser como indicado, para o 

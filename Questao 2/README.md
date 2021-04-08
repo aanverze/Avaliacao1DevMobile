@@ -1,4 +1,4 @@
-# Questão 2
+# Questão 2 *(2 pontos)*
 
 Utilizando o conceito de *composição*, crie uma classe `Cilindro` que tenha 
 um atributo `base` de tipo `Circulo`, e um atributo `altura` de tipo `double`. 
