@@ -13,7 +13,7 @@ public interface Redimensionavel {
 }
 ```
 
-a. Implemente uma classe `Quadrado`, que possui um atributo `lado` de tipo `double`. 
+a. Implemente uma classe `Quadrado`, que possui um atributo `protected` chamado `lado`, de tipo `double`. 
 Implemente um construtor que preenche o atributo `lado`, ou seja, o construtor deve 
 receber por parâmetro um `lado` e atribuí-lo à sua propriedade `lado`. Implemente um método
 `getLado` que retorne o valor de `lado`.
@@ -23,4 +23,4 @@ b. Implemente uma classe `QuadradoRedimensionavel`, que é *subclasse* de `Quadr
 **implementa** a interface `Redimensionavel`. Essa classe deve implementar um 
 construtor que recebe o valor de `lado` e o transmite para o construtor da superclasse.
 Para implementar o método `redimensionar`, você deve receber uma *porcentagem* e fazer com que
-`lado = lado * percentual / 100`  *(1,5 ponto)*
+`lado += lado * percentual / 100`  *(1,5 ponto)*

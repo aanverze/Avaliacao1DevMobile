@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+// não altere esta classe
 public class Baralho {
     private List<Carta> monte;
     private int cartaAtual;

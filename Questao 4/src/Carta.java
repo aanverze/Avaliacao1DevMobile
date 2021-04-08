@@ -1,3 +1,4 @@
+// Não altere esta classe
 public class Carta {
     // atributos
     private String naipe;
