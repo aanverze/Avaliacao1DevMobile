@@ -1,16 +1,18 @@
 public class Jogador {
-    // atributos -- incluir
+    private Carta[] mao;
+    private int MaxMao = 3;
+    private int indiceMao;
 
     public Jogador() {
-        // implementar
-    }
-
-    public Carta[] getMao() {
-        // implementar
+        mao = new Carta[MaxMao];
+        indiceMao = 0;
     }
 
     public void receberCarta(Carta c) {
-        // implementar
+        if (indiceMao < MaxMao){
+            mao[indiceMao] = c;
+            indiceMao ++;
+        }
     }
 
     // --------------- não alterar daqui para baixo -----------------------
